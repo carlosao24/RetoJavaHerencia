@@ -6,7 +6,7 @@ public class TestHijo {
 
 	public static void main(String[] args) {
 		
-		Hijo h = new Hijo(4,3,5);
+		Hijo h = new Hijo(4,3,5,"Samuel");
 		
 		System.out.println(h);
 		

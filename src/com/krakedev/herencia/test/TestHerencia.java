@@ -5,7 +5,7 @@ import com.krakedev.herencia.Hija;
 public class TestHerencia {
 
 	public static void main(String[] args) {
-		Hija hija = new Hija(2,5);
+		Hija hija = new Hija(2,5,"Bermy");
 
 		
 		hija.imprimir();

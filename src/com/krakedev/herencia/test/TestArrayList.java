@@ -10,16 +10,16 @@ public class TestArrayList {
 		
 		ArrayList<Hija> ListaDeHijas = new ArrayList<Hija>();
 		
-		Hija hija1 = new Hija(2,4);
+		Hija hija1 = new Hija(2,4,"Eduarda");
 		
 		ListaDeHijas.add(hija1);
 		
 		
-		Hija hija2 = new Hija(6,1);
+		Hija hija2 = new Hija(6,1,"Haisy");
 		
 		ListaDeHijas.add(hija2);
 		
-		Hija hija3 = new Hija(6,1);
+		Hija hija3 = new Hija(6,1,"Dairi");
 		ListaDeHijas.add(hija3);
 		
 		System.out.println(ListaDeHijas);
