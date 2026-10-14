@@ -8,6 +8,10 @@ public class Hijo extends Padre{
 		super(defectos, virtudes);
 		this.juguetes = juguetes;
 	}
+	@Override
+	public void ahorrar(double monto){
+		super.ahorrar(monto * 0.5);
+	}
 	
 	@Override
 	public String toString() {
