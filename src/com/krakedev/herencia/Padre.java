@@ -4,11 +4,12 @@ public class Padre {
 	
 	private int defectos;
 	private int virtudes;
+	private double totalAhorrado;
 	
-//	@Override
-//	public String toString() {
-//		return "Padre [defectos=" + defectos + ", virtudes=" + virtudes + "]";
-//	}
+	@Override
+	public String toString() {
+		return "Defectos=" + defectos + ", Virtudes=" + virtudes + ", Ahorros=" + totalAhorrado;
+	}
 	
 //	public Padre() {
 //		System.out.println("Soy el constructor vacio de Padre");
@@ -32,6 +33,16 @@ public class Padre {
 		this.virtudes = virtudes;
 	}
 	
+	
+	
+	public double getTotalAhorrado() {
+		return totalAhorrado;
+	}
+
+	public void setTotalAhorrado(double totalAhorrado) {
+		this.totalAhorrado = totalAhorrado;
+	}
+
 	public void imprimir() {
 		System.out.println("Los defectos son: " + defectos);
 		System.out.println("Las virtudes son: " + virtudes);
@@ -39,6 +50,10 @@ public class Padre {
 	
 	public void guardarSecreto() {
 		System.out.println("Esto no se hereda");
+	}
+	
+	public void ahorrar(double monto){
+		totalAhorrado += monto;
 	}
 	
 	

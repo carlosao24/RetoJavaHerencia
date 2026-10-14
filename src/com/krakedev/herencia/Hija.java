@@ -12,7 +12,9 @@ public class Hija extends Padre{
 
 	@Override
 	public String toString() {
-		return "Defectos: "+ getDefectos() + ", Virtudes; "+ getVirtudes();
+		return "Defectos: "+ getDefectos() + ", Virtudes; "+ getVirtudes()+ ", Ahorros: "+ getTotalAhorrado();
 	}
+	
+	
 	
 }
